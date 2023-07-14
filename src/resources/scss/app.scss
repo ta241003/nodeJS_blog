@@ -1,9 +1,10 @@
-@import 'variables';
+@import "variables";
 
-h1 {
-  color: $red-color;
+.card-course-item {
+	margin-top: 16px;
 }
 
-h2 {
-  color: green;
+.btn-primary {
+	background-color: #f05123;
+	border-color: transparent;
 }
