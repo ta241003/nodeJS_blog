@@ -1,6 +1,28 @@
+a {
+  text-decoration: none;
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: orangered; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
 .card-course-item {
   margin-top: 16px; }
 
 .btn-primary {
   background-color: #f05123;
   border-color: transparent; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #e2623f;
+  border-color: transparent; }
+
+.course-description {
+  font-size: 20px;
+  color: #272625; }
